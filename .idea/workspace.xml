@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2e7b5c2-fe21-46e2-b917-72e7fdaad9d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingBat_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codingBat_practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/SimpleCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,24 +19,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pmelvin43"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pmelvin43&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pmelvin43/codingBat-practice.git",
-    "accountId": "3a060f28-1cc3-49b2-9383-8e932dc373c1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pmelvin43/codingBat-practice.git&quot;,
+    &quot;accountId&quot;: &quot;3a060f28-1cc3-49b2-9383-8e932dc373c1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -49,22 +52,114 @@
     "Application.Main.executor": "Debug",
     "Application.SimpleCalculator.executor": "Run",
     "Application.src.executor": "Debug",
+    "Application.warmupOne.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn.executor": "Run",
+    "JUnit.warmupOneTest.notWeekdayNotVacationEqualsSleepIn.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="SimpleCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.SimpleCalculator" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn">
+    <configuration name="warmupOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.warmupOne" />
       <module name="codingBat_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codingBat_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.test.java" />
+      <option name="MAIN_CLASS_NAME" value="main.test.java.SimpleCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalculatorTest.twoPlusTwoEqualFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codingBat_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.test.java" />
+      <option name="MAIN_CLASS_NAME" value="main.test.java.SimpleCalculatorTest" />
+      <option name="METHOD_NAME" value="twoPlusTwoEqualFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warmupOneTest.WeekdayNotVacationEqualsNoSleepIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codingBat_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.test.java" />
+      <option name="MAIN_CLASS_NAME" value="main.test.java.warmupOneTest" />
+      <option name="METHOD_NAME" value="WeekdayNotVacationEqualsNoSleepIn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warmupOneTest.notWeekdayNotVacationEqualsSleepIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codingBat_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.test.java" />
+      <option name="MAIN_CLASS_NAME" value="main.test.java.warmupOneTest" />
+      <option name="METHOD_NAME" value="notWeekdayNotVacationEqualsSleepIn" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleCalculator" />
+        <item itemvalue="JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn" />
+        <item itemvalue="JUnit.warmupOneTest.notWeekdayNotVacationEqualsSleepIn" />
+        <item itemvalue="Application.warmupOne" />
+        <item itemvalue="JUnit.SimpleCalculatorTest" />
+        <item itemvalue="JUnit.SimpleCalculatorTest.twoPlusTwoEqualFour" />
       </list>
     </recent_temporary>
   </component>
