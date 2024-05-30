@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2e7b5c2-fe21-46e2-b917-72e7fdaad9d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codingBat_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codingBat_practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/SimpleCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/warmupOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/warmupOneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,7 @@
     "Application.warmupOne.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn.executor": "Run",
+    "JUnit.warmupOneTest.executor": "Run",
     "JUnit.warmupOneTest.notWeekdayNotVacationEqualsSleepIn.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -76,7 +74,7 @@
       <recent name="main.java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn">
+  <component name="RunManager" selected="JUnit.warmupOneTest">
     <configuration name="warmupOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.warmupOne" />
       <module name="codingBat_practice" />
@@ -105,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculatorTest.twoPlusTwoEqualFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="warmupOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingBat_practice" />
       <extension name="coverage">
         <pattern>
@@ -114,9 +112,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="main.test.java" />
-      <option name="MAIN_CLASS_NAME" value="main.test.java.SimpleCalculatorTest" />
-      <option name="METHOD_NAME" value="twoPlusTwoEqualFour" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="main.test.java.warmupOneTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.warmupOneTest" />
         <item itemvalue="JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn" />
         <item itemvalue="JUnit.warmupOneTest.notWeekdayNotVacationEqualsSleepIn" />
         <item itemvalue="Application.warmupOne" />
         <item itemvalue="JUnit.SimpleCalculatorTest" />
-        <item itemvalue="JUnit.SimpleCalculatorTest.twoPlusTwoEqualFour" />
       </list>
     </recent_temporary>
   </component>

@@ -19,14 +19,14 @@ public class warmupOneTest {
     }
 
     @Test
-    public void WeekdayNotVacationEqualsNoSleepIn() {
+    public void notWeekdayVacationEqualsSleepIn() {
         var sleepTest = new warmupOne();
-        assertFalse(sleepTest.sleepIn(false, true));
+        assertTrue(sleepTest.sleepIn(false, true));
     }
 
     @Test
-    public void WeekdayNotVacationEqualsNoSleepIn() {
+    public void WeekdayVacationEqualsSleepIn() {
         var sleepTest = new warmupOne();
-        assertFalse(sleepTest.sleepIn(true, true));
+        assertTrue(sleepTest.sleepIn(true, true));
     }
 }
