@@ -1,6 +1,6 @@
 package main.test.java;
 
-import main.java.warmupOne;
+import main.java.sleepIn;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -8,25 +8,25 @@ import static org.junit.Assert.*;
 public class warmupOneTest {
     @Test
     public void notWeekdayNotVacationEqualsSleepIn() {
-        var sleepTest = new warmupOne();
-        assertTrue(sleepTest.sleepIn(false, false));
+        var sleepTest = new sleepIn();
+        assertTrue(sleepTest.sleepsIn(false, false));
     }
 
     @Test
     public void WeekdayNotVacationEqualsNoSleepIn() {
-        var sleepTest = new warmupOne();
-        assertFalse(sleepTest.sleepIn(true, false));
+        var sleepTest = new sleepIn();
+        assertFalse(sleepTest.sleepsIn(true, false));
     }
 
     @Test
     public void notWeekdayVacationEqualsSleepIn() {
-        var sleepTest = new warmupOne();
-        assertTrue(sleepTest.sleepIn(false, true));
+        var sleepTest = new sleepIn();
+        assertTrue(sleepTest.sleepsIn(false, true));
     }
 
     @Test
     public void WeekdayVacationEqualsSleepIn() {
-        var sleepTest = new warmupOne();
-        assertTrue(sleepTest.sleepIn(true, true));
+        var sleepTest = new sleepIn();
+        assertTrue(sleepTest.sleepsIn(true, true));
     }
 }

@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2e7b5c2-fe21-46e2-b917-72e7fdaad9d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/warmupOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sleepIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/java/warmupOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/warmupOneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +50,9 @@
   "keyToString": {
     "Application.Main.executor": "Debug",
     "Application.SimpleCalculator.executor": "Run",
+    "Application.diff21.executor": "Run",
     "Application.src.executor": "Debug",
-    "Application.warmupOne.executor": "Run",
+    "Application.warmupOne.executor": "Coverage",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn.executor": "Run",
     "JUnit.warmupOneTest.executor": "Run",
@@ -74,7 +77,20 @@
       <recent name="main.java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.warmupOneTest">
+  <component name="RunManager" selected="JUnit.diff21Test">
+    <configuration name="diff21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.diff21" />
+      <module name="codingBat_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="warmupOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.warmupOne" />
       <module name="codingBat_practice" />
@@ -88,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="diff21Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codingBat_practice" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +113,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="main.test.java" />
-      <option name="MAIN_CLASS_NAME" value="main.test.java.SimpleCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="main.test.java.diff21Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,29 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="warmupOneTest.notWeekdayNotVacationEqualsSleepIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codingBat_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.test.java" />
-      <option name="MAIN_CLASS_NAME" value="main.test.java.warmupOneTest" />
-      <option name="METHOD_NAME" value="notWeekdayNotVacationEqualsSleepIn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.diff21Test" />
+        <item itemvalue="Application.diff21" />
         <item itemvalue="JUnit.warmupOneTest" />
-        <item itemvalue="JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn" />
-        <item itemvalue="JUnit.warmupOneTest.notWeekdayNotVacationEqualsSleepIn" />
         <item itemvalue="Application.warmupOne" />
-        <item itemvalue="JUnit.SimpleCalculatorTest" />
+        <item itemvalue="JUnit.warmupOneTest.WeekdayNotVacationEqualsNoSleepIn" />
       </list>
     </recent_temporary>
   </component>
